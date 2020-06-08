@@ -22,7 +22,7 @@ fun calculator1() {
     val scanner = Scanner(System.`in`)
 
     var loop = true
-    while (loop == true) {
+    while (loop) {
         println("Write two numbers to do things with and which operator you want to use. \n? to see list of commands")
         val input_1 = scanner.next()
         //Commands
