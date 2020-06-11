@@ -4,9 +4,7 @@ import java.util.*
 
 fun calculator() {
     val scanner = Scanner(System.`in`)
-
-    var loop = true
-    while (loop) {
+    while (true) {
         println("Write two numbers to do things with and which operator you want to use. \n? to see list of commands")
         val input_1 = scanner.next()
         //Commands
@@ -17,7 +15,7 @@ fun calculator() {
             println("2. quit = quits the application.")
             println()
         } else if (input_1 == "quit") {
-            loop = false
+            break
         } else {
             val input_2 = scanner.next()
             val output_1 = input_1.toInt()
