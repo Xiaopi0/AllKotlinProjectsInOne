@@ -6,7 +6,7 @@ fun personData() {
     val scanner = Scanner(System.`in`)
     while (true) {
         println("Welcome to Xiaopi0 person data storage. For help type '?'. To create a new person type 'new'.\n To look up already stored person data type 'old'")
-        var in1 = scanner.next()
+        val in1 = scanner.next()
 
         if (in1 == "?") {
             help()
@@ -21,7 +21,8 @@ fun personData() {
 }
 
 fun help() {
-
+    println("List of commands:\n 1. ? = Shows this page.\n 2. new = Creates a new person(you can store data about pesons(Name, Age etc.)).\n 3. old = shows a list of already created persons.")
+    personData()
 }
 
 fun new() {
