@@ -1,6 +1,7 @@
 package net.Xiaopi0.Kotlin.allKotlinProjectsInOne
 
 import java.util.*
+import com.Xiaopi0.Kotlin.variableapi.*
 
 fun personData() {
     val scanner = Scanner(System.`in`)
@@ -26,7 +27,6 @@ fun help() {
 }
 
 fun new() {
-
 }
 
 fun old() {
