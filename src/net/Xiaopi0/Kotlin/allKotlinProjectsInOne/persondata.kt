@@ -6,7 +6,7 @@ import com.Xiaopi0.Kotlin.variableapi.*
 fun personData() {
     val scanner = Scanner(System.`in`)
     while (true) {
-        println("This does currently not work, please try alater release.")
+        println("This does currently not work, please try a later release.")
         println("Welcome to Xiaopi0 person data storage. For help type '?'. To create a new person type 'new'.\n To look up already stored person data type 'old'")
         val in1 = scanner.next()
 
